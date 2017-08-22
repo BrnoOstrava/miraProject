@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Kalkulacka
+comment1.params=a\ b
+comment1.target=int\ scitani(int,\ int)
+comment10.params=a
+comment10.target=double\ odmocnina(int)
+comment11.params=a
+comment11.target=int\ faktorial(int)
+comment2.params=a\ b
+comment2.target=int\ odcitani(int,\ int)
+comment3.params=a\ b
+comment3.target=int\ nasobeni(int,\ int)
+comment4.params=a\ b
+comment4.target=double\ deleni(double,\ double)
+comment5.params=a\ b
+comment5.target=java.lang.String\ deleniSeZbytkem(int,\ int)
+comment6.params=a
+comment6.target=java.lang.String\ prevodDoDvojkoveSoustavy(int)
+comment7.params=desitkove
+comment7.target=int\ prevodDoDesitkoveSoustavy(java.lang.String)
+comment8.params=a\ b
+comment8.target=int\ mocnina(int,\ double)
+comment9.params=a
+comment9.target=int\ mocninaNaDruhou(int)
+numComments=12
