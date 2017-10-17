@@ -1,0 +1,19 @@
+Projekt Domy
+************
+
+-Přetížit konstruktor
+-Přístupové metody
+-Pozicování a rozměry
+-Messenger
+
+Projekt Algoritmus
+******************
+
+-Přetížit konstruktor (možnost zadat prvky ručně)
+-Promíchat kolekci
+
+Projekt Kalkulacka
+******************
+
+-JUnit Test
+-V testu zavolat metody kalkulačky

@@ -1,0 +1,54 @@
+Zadání
+******
+
+- Naklonuj si adresář ze stránky https://github.com/BrnoOstrava/projects.git (je to repozitář s readme souborem a 02_objekty) a vytvoř si novou větev mira
+- Do tohoto adresáře vytvoř následující projekty (ve větvi mira)
+- Vytvoříš 4 nové projekty (Domy, Algoritmus, Pocasi a Kalkulacka)
+- Všechny čtyři projekty commitneš (u všech bude commit typu Vytvoren novy projekt *JmenoTridy)
+- Všechny 4 projekty napushuj do větve mira 
+
+Projekt Domy
+************
+
+- V projektu vytvoříš dva baráky (dvě třídy). Jedna se bude jmenovat RodinnyDum, druha Panelak. (v obou třídách zavoláš v konstruktoru nejdřív metodu Platno.getPlatno().setRozmer(int, int) a nastavíš příslušný rozměr plátna podle obrázku 1.zadani.jpg.
+- Barvičky nechám na tobě, budou mě zajímat pouze souřadnice a velikosti!! proto jsou oba obrázky černobílé.
+- Vše zatím programuj do konstruktoru pouze.
+
+Projekt Algoritmus
+******************
+
+- V tomto projektu nebudeš ani pořebovat moc projekty 02_0bjekty, protože nejdříve bude vše jen výpis a pak až když půjde o grafiku, tak přejdem na swing
+- Prozatím vytvoř novou třídu Algoritmus
+- Deklaruj a inicializuj kolekci ArrayList<Integer> (jestli si vzpomínáš, jestli ne, tak deklrauj a inicializuj zatím pole intů o velikosti 20 a klidně si tam dej hodnoty, jaké chceš)
+- Definuj metodu (název nechám na tobě), která vypíše postupně všechny prvky z kolekce/pole
+
+Projekt Pocasi
+**************
+
+- Tento projekt si necháme na pozdější dobu. Bude to praktická práce se swingem;)
+- Prozatím zde definuj tyto třídy:
+	- Obloha
+	- Mrak
+	- Slunce
+	- Měsíc
+	- Hvězda
+	- Kapka
+
+
+Projekt Kalkulacka
+******************
+
+- Toto bude perfektní ukázka OOP. Pokud budem všechno dělat dobře, tak uvidíš krásný update v praxi;)
+- Definuj třídu Kalkulacka a v ní tyto metody:
+	- int scitani(int, int)
+	- int odcitani(int, int)
+	- int nasobeni(int, int)
+	- double deleni(int, int)
+	- String deleniSeZbytkem(int, int)
+	- String prevodDoDvojkoveSoustavy(int)
+	- int prevodDoDesitkoveSoustavy(String)
+	- int mocnina(int, double)
+	- int mocninaNaDruhou(int)
+	- double odmocnina(int)
+	- int faktorial(int)
+- A nakonec v tomto projektu definuj třídu GrafickaKalkulacka, ve které zatím nic nemusíš dělat, jen ji vytvoř a nech prázdnou

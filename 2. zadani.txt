@@ -1,0 +1,73 @@
+1) NULY A JEDNIČKY
+*******************
+-1. cyklus vygeneruje 1 a 0 na řádek
+-2. cyklus vygeneruje předešlé cykly
+
+2) PÍSMENKA
+***********
+-Vygenerovat písmena F, H, V a X pomocí znaku
+-Znak zadá uživatel
+
+3) ČÁRY
+*******
+-vygenerovat konstantní mřížku [500, 500] s čtverečky o velikosti 50x50
+-vygenerovat dynamickou mřížku, která v sobě bude vždy obsahovat 10x10 čtverců
+
+4) TROJÚHELNÍKY
+***************
+-Vygenerovat trojúhelníky:
+a)	*
+	**
+	***
+	****
+	*****
+
+b)	    *
+	   **
+	  ***
+	 ****
+	*****
+
+c) 	*****
+	****
+	***
+	**
+	*
+
+d)	*****
+	 ****
+	  ***
+	   **
+	    *
+
+e)	*********
+	 *******
+	  *****
+	   ***
+	    *
+
+f)	    *
+	   ***
+	  *****
+	 *******
+	*********
+
+g)	*
+	**
+	***
+	****
+	*****
+	****
+	***
+	**
+	*
+
+h)	    *
+	   **
+	  ***
+	 ****
+	*****
+	 ****
+	  ***
+	   **
+	    *

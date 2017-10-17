@@ -1,0 +1,23 @@
+Projekt Domy
+************
+
+-Vytvořit třídu Okno viz obrázek
+-Nahradit Okna
+-Singleton Delay
+-Příprava výtahu a komína
+
+Projekt Algoritmus
+******************
+
+-Stupid sort
+-Bubble sort
+
+Projekt Kalkulacka
+******************
+
+-Vytvořit potomka
+-Dokončit všechny funkce
+-Potomek bude singleton
+-Potomek bude obsahovat statickou konstantu, která bude první hodnotou
+-Překrýt metody
+-Přetížit metodu sčítání. Bude se zadávat pole intů (int[]...pole)

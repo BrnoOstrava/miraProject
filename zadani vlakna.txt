@@ -1,0 +1,42 @@
+VLÁKNA!!! ÚKOLY (asi 90% případy kdy a jak použít vlákna)
+*********************************************************
+
+a) OBYČEJNÉ VLÁKNO
+******************
+Standartní vlákno (existují 3 možnosti, jak vytvořit standartní vlákno v jedné třídě. Atribut, dědičnost, implementace)
+ÚKOL: Vytvoř Balonek, který se z bodu [x, 0] přesune na spodek plátna (prostě spadne ze shora dolů)
+
+b) NEKONEČNÉ VLÁKNO
+Vlákno, které bude obsahovat nekonečný cyklus
+ÚKOL: Vytvoř Balonek, který bude konstantní rychlostí skákat dolů a nahoru
+
+c) NEKONEČNÉ VLÁKNO S PAUZOU
+Vlákno, které bude obsahovat nekonečný cyklus, který bude mít v sobě podmínku. Tato podmínka bude reagovat na proměnnou typu boolean. Pokud bude true, tak vlákno normálně poběží, pokud false, tak vlákno bude cyklit furt dokola bez provedení kódu
+ÚKOL: Vytvoř Balonek, který bude konstantní rychlostí skákat dolů a nahoru. K tomu vytvoř tlačítko, které bude tento balonek zastavovat a pouštět
+
+d) MNOHO VLÁKEN SOUČASNĚ
+Pustí se několik vláken současně. Zde se ukáže, jak jede každé vlákno samostatně a nebere ohled na stav druhého vlákna
+ÚKOL: Vytvoř 10 Balonku, které spadnou ze shora dolů. Budou padat současně (nebo spíše je spustíme současně)
+
+e) SYNCHRONIZOVANÁ VLÁKNA
+Při spuštění dvou vláken můžeme u nich aplikovat synchronizaci a zámek. Díky tomu, že budou pouze dvě vlákna, tak můžeme s jistotou říct, že se budou střídat. Pokud by bylo vláken více, nemůžeme zaručit, že synchronizací a zámkem budeme mít jistotu, že se budou střídat pravidelně. Může v nejextrémnějším případě dojít k tomu, že se budou o zámek dělit pouze dvě vlákna a zbylá počkají, až se tyto dvě vlákna dokončí.
+ÚKOL: Vytvoř 2 Balonky, které budou padat ze shora dolů. Budou padat naprosto společně, protože se budou dělit o jeden zámek. Na tento zámek vždy zavoláš metody notify() a wait(). Tím docílíme, že se vždy jedno vlákno uspí a spustí to druhé
+
+f) MNOHO VLÁKEN POSTUPNĚ
+Vlákna budou vždy čekat, až se předchozí vlákno dokončí a až potom příjdou na řadu ty, které tak nastavíme. Pro tohle čekání a vůbec pro tuhle postupnou synchronizaci použijeme metodu join()
+ÚKOL: Vytvoř 10 vláken, které budou postupně padat ze shora dolů. Jak jedno vlákno dopadne, druhé se spustí atd.
+
+g) DAEMON VLÁKNO
+Démonské vlákno nikdy neukončí hlavní program. Toto vlákno skončí v momentě, kdy všechna hlavní vlákna dokončí svůj běh. Tudíž může končit i v polovině svého života
+ÚKOL: Vytvoř 2 vlákna. Jedno hlavní, které vypíše čísla od 0 do 50 s nějakou prodlevou a druhé vlákno, které bude démon, jenž vypíše čísla od 0 do 100 se stejnou prodlevou. Obě tato vlákna spusť ve stejnou dobu. Pokud se první vlákno nijak nesekne a pokud bude jediným vláknem programu, tak druhé vlákno nikdy svůj úkol (tj. vypsat 100 čísel) nesplní
+
+h) ORGANIZOVANÁ VLÁKNA
+Nic nového, spíš jde o efekt:)
+ÚKOL: Vytvoříš 4 Balonky. Všechny Balonky budou mít svoje samostatné vlákno.
+-Spustíš je v tomto pořadí: první samostatně, druhé a třetí současně, 4 samostatně
+-Balonky poletí v těchto směrech: první ze shora dolů, druhý se spoda nahoru, třetí ze shora dolů a čtvrtý ze spoda nahoru
+-Balonky budou v těchto rozestupech: první a hned vedle něj druhý. třetí bude hned těsně vedle čtvrtého. Mezi druhým a třetím bude velká mezera.
+-Vytvoříš nový objekt (JComponent, který vykreslí čáru. Tato čára bude začínat uprostřed druhého balonku a končit uprostřed třetího balonku)
+
+i) CI LOOP
+Poslední a dost těžký případ, jak využít vlákna. To uděláme společně
